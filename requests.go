@@ -51,7 +51,7 @@ const (
 
 // number of days into the future to check zones for expiration extensions.
 // 0 disables the check
-const expiryDateThreshold = 120
+const expiryDateThreshold = 30
 
 // used in RequestExtension
 var emptyStruct, _ = json.Marshal(make(map[int]int))
